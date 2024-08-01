@@ -1,0 +1,39 @@
+
+
+.container {
+ 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+    
+  
+  }
+  
+  .user-card {
+    max-width: 450px;
+    margin: 16px;
+    width: 218px;
+    height: 347px;
+    transition: transform 0.3s ease-in-out;
+  }
+  .user-card:hover {
+    transform: scale(1.03);
+  }
+  
+  mat-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+.btn-bag {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 0px;
+  }

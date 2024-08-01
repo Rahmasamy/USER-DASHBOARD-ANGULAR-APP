@@ -1,0 +1,34 @@
+/* .user-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  } */
+   .user-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+  
+  
+  .user-card {
+    width: 470px;
+    text-align: center;
+    padding: 20px;
+    height: 250px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .user-avatar {
+    margin-right: 10px;
+    border-radius: 50%;
+   
+  }
+  mat-card-header {
+    display: flex;
+    justify-content: space-between;
+
+  }

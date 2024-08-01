@@ -1,0 +1,31 @@
+
+
+    <mat-toolbar color="primary" >
+        <span>User Dashboard</span>
+        <span class="spacer"></span>
+        
+    </mat-toolbar>
+
+
+
+
+
+<div class="user-container"*ngIf="user">
+    <mat-card class="user-card">
+        <mat-card-header>
+          <div mat-card-avatar class="user-avatar">
+            <img mat-card-image [src]="user.avatar" alt="{{ user.first_name }}'s avatar" style="width: 90px; height: 90px;">
+          </div>
+          <div class="title-header"style="margin-top:20px">
+            <mat-card-title style="color: rgb(6, 122, 122);">{{ user.first_name }} {{ user.last_name }}</mat-card-title>
+            <mat-card-subtitle >{{ user.email }}</mat-card-subtitle>
+          </div>
+        
+        </mat-card-header>
+        <mat-card-content style="margin-top: 30px;">
+          <p>Some additional content about the user can go here.</p>
+        </mat-card-content>
+        <button mat-button (click)="goBack()">Back to User List</button>
+      </mat-card>
+    
+</div>
