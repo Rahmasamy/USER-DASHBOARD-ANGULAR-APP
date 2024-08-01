@@ -14,6 +14,14 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { trigger, transition, style, animate } from '@angular/animations';
+
+
+// Author Rahma Samy 
+//I want to note that i didn't use angular before 
+//I applied for front end role using reacts js ,also I do as much as I can for finishing that project by searching and understanding Angular fundmentals 
+//So don't forget to give me feedback please!
+
+
 @Component({
   selector: 'app-user-list',
   standalone: true,
